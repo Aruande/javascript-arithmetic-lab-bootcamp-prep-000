@@ -16,3 +16,19 @@ function multiply(a,b){
    number = a/ b;
    return number
  }
+function inc (a) {
+  number = a +1;
+  return number;
+  
+}
+function dec(a) {
+  number =a - 1;
+}
+function makeInt(a) {
+  number = parseInt(a, 10);
+  return number;
+}
+function preserveDecimal(a) {
+  number =parseFloat(a, 10);
+  return number;
+}
